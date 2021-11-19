@@ -73,3 +73,93 @@ input {
     object-fit: cover;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 1024px){
+    .addContacts {
+        width: 60%;
+    }
+
+    .heading {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    input {
+        font-size: 12px;
+        padding: 10px;
+        width: 250px;
+        margin: 7px;
+    }
+
+    #submit {
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .contacts {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 80px;
+    }
+
+    .contact {
+        width: 300px;
+        height: 75px;
+        padding: 15px;
+    }
+
+    .contactDetails {
+        font-size: 10px;
+    }
+
+    .profileImage img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 435px){
+    .addContacts {
+        width: 70%;
+    }
+
+    .heading {
+        font-size: 14px;
+        margin: 10px 0;
+
+    }
+
+    input {
+        font-size: 10px;
+        padding: 7px;
+        width: 150px;
+        margin: 7px;
+        border-radius: 5px;
+    }
+
+    #submit {
+        padding: 7px;
+        font-size: 10px;
+    }
+
+    .contacts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact {
+        width: 300px;
+        height: 75px;
+        padding: 15px;
+    }
+
+    .contactDetails {
+        font-size: 10px;
+    }
+
+    .profileImage img {
+        width: 50px;
+        height: 50px;
+    }
+}

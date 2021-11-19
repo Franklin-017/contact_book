@@ -16,7 +16,7 @@ export class AppComponent {
   contacts: Array<any> = [];
 
   addContact() {
-    if (this.name && this.email && this.phoneNumber && this.phoneNumber.length === 10) {
+    if (this.name && this.email && this.phoneNumber) {
       this.contacts.push({
         name: this.name,
         email: this.email,
